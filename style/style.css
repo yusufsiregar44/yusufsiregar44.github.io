@@ -1,0 +1,14 @@
+/* initialize box bordering */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  border: 2px solid #000000;
+  padding: 20px 20px;
+  text-align: center;
+  width: 100%;
+}
