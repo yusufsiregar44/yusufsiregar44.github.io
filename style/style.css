@@ -1,26 +1,102 @@
 /* initialize box bordering */
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-header {
-  border: 2px solid #000000;
+a:link {
+    text-decoration: none;
+}
+
+
+Header {
   padding: 20px 20px;
   text-align: center;
   width: 100%;
+  font-style: normal;
 }
 
 
 .container {
-    width: 200px;
-    height: 120px;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    padding: 10px;
+
 }
 
 /* resize images */
 .container img {
     width: 100%;
     height: auto;
+    border-radius: 100%;
+}
+
+/* image caption */
+.container figcaption {
+    text-align: center;
+    font-size: 30px;
+}
+
+.About {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  margin-top: 5%;
+
+}
+
+.About p {
+  margin: 10px;
+}
+
+.Social {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  margin-top: 5%;
+
+}
+
+.Social p {
+  margin: 10px;
+}
+
+.blog {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  margin-top: 5%;
+
+}
+
+.blog p {
+  margin: 10px;
+}
+
+.Professional {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  margin-top: 5%;
+
+}
+
+.Professional p {
+  margin: 10px;
+}
+
+footer {
+  position: relative;
+  padding: 10px;
+  text-align: center;
+  font-size: 10px;
+  width: 100%;
 }
