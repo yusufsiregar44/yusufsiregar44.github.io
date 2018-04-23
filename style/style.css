@@ -20,19 +20,29 @@ a:link {
 
 
 Header {
-  padding: 20px 20px;
+  top: 0px;
   text-align: center;
   width: 100%;
+  padding: 10px 10px;
+  z-index:1000;
   font-style: normal;
+  height: 40px;
+  display: block;
+  position: fixed;
+  /*border-bottom: 2px solid #000000;*/
+  background-color: #FFFFFF;
+
 }
 
-
+.profile {
+  position: relative;
+  margin-top: 50px;
+}
 .container {
     width: 500px;
     height: 300px;
-    position: relative;
     margin: auto;
-    padding: 10px;
+    padding-top: 10px;
     /*border: 1px solid #000000;*/
     min-width: inherit;
 
