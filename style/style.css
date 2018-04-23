@@ -4,6 +4,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  /* background-image: url("../images/background.jpg");
+  background-position: top-center; */
 }
 
 a:link {
@@ -41,57 +43,18 @@ Header {
     font-size: 30px;
 }
 
-.About {
+.sub {
   width: 100%;
   padding: 10px;
   text-align: center;
   position: relative;
   margin-top: 5%;
-
 }
 
-.About p {
+.sub p {
   margin: 10px;
 }
 
-.Social {
-  width: 100%;
-  padding: 10px;
-  text-align: center;
-  position: relative;
-  margin-top: 5%;
-
-}
-
-.Social p {
-  margin: 10px;
-}
-
-.blog {
-  width: 100%;
-  padding: 10px;
-  text-align: center;
-  position: relative;
-  margin-top: 5%;
-
-}
-
-.blog p {
-  margin: 10px;
-}
-
-.Professional {
-  width: 100%;
-  padding: 10px;
-  text-align: center;
-  position: relative;
-  margin-top: 5%;
-
-}
-
-.Professional p {
-  margin: 10px;
-}
 
 footer {
   position: relative;
