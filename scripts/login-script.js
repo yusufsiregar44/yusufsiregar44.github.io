@@ -7,7 +7,7 @@ submitLogin.onclick = function() {
   if (typeof keyValue[0] === "string" && ((keyValue[1] * keyValue[2]) % 2 === 0)) {
     // alert("Key Confirmed!")
     window.location = "vote.html";
-    alert("Key Confirmed!");
+    // alert("Key Confirmed!");
     return false;
   } else if (keyValue === "admin1234") {
     window.location = "results.html";

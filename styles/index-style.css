@@ -13,6 +13,17 @@ html {
   /* border: 2px solid #000000; */
 }
 
+form {
+  width: 100vw;
+  min-height: 90vh;
+  box-sizing: border-box;
+  padding: 20px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 footer {
   width: 100vw;
   padding: 5px;
@@ -29,67 +40,61 @@ footer {
   font-variant: normal;
   text-transform: none;
   line-height: 25px;
-  position: absolute;
-  bottom: 0;
-  height: 60px;
-  /* Height of the footer */
+  position:absolute;
+  bottom:0;
+  height:60px;   /* Height of the footer */
 }
 
-h1 {
-  text-align: center;
-  margin: 10px;
-}
-
-.container {
-  margin: 10px auto;
-  width: 100vw;
-  min-height: 90vh;
-  box-sizing: border-box;
-  padding: 20px 20px 40px;
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
-}
-
-.form {
-  margin: 150px auto;
+/* Full-width input fields */
+input[type=text]{
   width: 100%;
-  text-align: center;
-}
-
-.candidateA {
+  padding: 15px;
+  margin: 5px 0 22px 0;
   display: inline-block;
-  max-width: 350px;
-  vertical-align: top;
-  margin: 10px auto;
+  border: none;
+  background: #f1f1f1;
 }
 
-.candidateB {
-  display: inline-block;
-  max-width: 150px;
-  margin: 10px auto;
+input[type=text]:focus,{
+  background-color: #ddd;
+  outline: none;
 }
 
-.containerImg img {
-  /* border: 2px solid #000000; */
-  margin: 10px auto;
-  height: 200px;
-  width: 100px;
-  object-fit: contain;
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
 }
 
+/* Set a style for all buttons */
 button {
   background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
-  margin: 8px 0 10px 0;
+  margin: 8px 0 8px 0;
   border: none;
   cursor: pointer;
-  width: 20px;
+  width: 100%;
   opacity: 0.9;
-  font-size: 15px;
 }
 
 button:hover {
   opacity:5;
 }
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
