@@ -21,14 +21,8 @@ spongbobVotes.appendChild(spongbobVotesNumber);
 homerResult.appendChild(spongbobVotes);
 
 var winner = "";
-if (sessionStorage.homerCount === undefined && sessionStorage.spongebobCount === undefined) {
+if (sessionStorage.homerCount === undefined || sessionStorage.spongebobCount === undefined) {
   winner = "unknown"
-} else if (sessionStorage.homerCount > sessionStorage.spongebobCount && sessionStorage.spongebobCount === undefined) {
-  winner = "Homer Simpson"
-  spongbobVotesNumber.innerHTML = 0;
-} else if (sessionStorage.homerCount > sessionStorage.spongebobCount && sessionStorage.homerCount === undefined) {
-  winner = "SpongeBob SquarePants"
-  homerVotesNumber.innerHTML = 0;
 } else if (sessionStorage.homerCount > sessionStorage.spongebobCount) {
   winner = "Homer Simpson"
 } else if (sessionStorage.homerCount < sessionStorage.spongebobCount) {
