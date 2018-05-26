@@ -23,8 +23,8 @@ homerResult.appendChild(spongbobVotes);
 var winner = "";
 if (sessionStorage.homerCount === undefined || sessionStorage.spongebobCount === undefined) {
   winner = "unknown"
-  spongbobVotesNumber.innerHTML = 0;
-  homerVotesNumber.innerHTML = 0;
+  spongbobVotes.innerHTML = 0;
+  homerVotes.innerHTML = 0;
 } else if (sessionStorage.homerCount > sessionStorage.spongebobCount) {
   winner = "Homer Simpson"
 } else if (sessionStorage.homerCount < sessionStorage.spongebobCount) {
