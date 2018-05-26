@@ -40,6 +40,11 @@ h1 {
   margin: 10px;
 }
 
+hr {
+  width: 750px;
+  margin: auto;
+}
+
 .container {
   margin: 10px auto;
   width: 100vw;
