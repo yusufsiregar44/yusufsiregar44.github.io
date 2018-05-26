@@ -26,6 +26,6 @@ voteClickSpongebob.onclick = function() {
   // }
   console.log("homer -> " + sessionStorage.homerCount);
   console.log("spongebob -> " + sessionStorage.spongebobCount);
-  alert("Thanks you for voting");
+  alert("Thank you for voting");
   window.location = "index.html";
 }
